@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 160px;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #a3a3a3;
+}
+
+.img-header-container {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.img-header-container img {
+  height: 110px;
+  width: 110px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem;
+  line-height: 2.5rem;
+  margin-left: 0.5rem;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #000000;
+}
+
+.author {
+  color: #9d8975;
+  font-weight: 500;
+}
+
+.btn-icon-container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-icon-container img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.btn {
+    padding: 0.5rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: #6200ee;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: #efe8f8;
+}
+
+.btn:focus {
+    background-color: #dcccf1;
+}
+
+.icon-btn {
+    padding: 0.8rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-btn:hover {
+    background-color: #ebebec;
+}
+
+.icon-btn:focus {
+    background-color: #d3d3d4;
+}
